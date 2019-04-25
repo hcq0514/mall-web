@@ -512,9 +512,9 @@ const stringify = function(object, options) {
     return values.join("&");
 }
 
-axios.defaults.baseURL = "http://api.leyou.com/api";
+axios.defaults.baseURL = "http://api.mall.com/api";
 axios.defaults.timeout = 5000;
-axios.defaults.withCredentials = true;
+axios.defaults.withCredentials = false;
 
 // 配置对象
 const ly = leyou = {
@@ -524,7 +524,9 @@ const ly = leyou = {
      * @returns {*}
      */
     verifyUser(){
+
         return this.http.get("/auth/verify")
+        // return true;
     },
 
 

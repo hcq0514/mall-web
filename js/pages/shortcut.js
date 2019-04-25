@@ -51,13 +51,13 @@ const shortcut = {
     },
     methods: {
         gotoLogin() {
-            window.location = "http://www.leyou.com/login.html?returnUrl=" + window.location;
+            window.location = "http://www.mall.com/login.html?returnUrl=" + window.location;
         },
         gotoRegister(){
-            window.location = "http://www.leyou.com/register.html";
+            window.location = "http://www.mall.com/register.html";
         },
         gotoHome(){
-            window.location = "http://www.leyou.com/home.html";
+            window.location = "http://www.mall.com/home.html";
         }
     }
 }

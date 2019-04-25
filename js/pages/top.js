@@ -90,13 +90,13 @@ const lyTop = {
             return null;
         },
         gotoIndex(){
-            window.location = "http://www.leyou.com/index.html";
+            window.location = "http://www.mall.com/index.html";
         },
         gotoSeckill(){
-            window.location = "http://www.leyou.com/seckill-index.html";
+            window.location = "http://www.mall.com/seckill-index.html";
         },
         gotoCart(){
-            window.location = "http://www.leyou.com/cart.html";
+            window.location = "http://www.mall.com/cart.html";
         }
     },
     created() {
